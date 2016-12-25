@@ -1,0 +1,18 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-02 20:28:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-16 12:13:32
+*/
+*{margin: 0;padding: 0}
+body{margin: 0;background-color: #DEDEDE;}
+#header{margin:0;background:#333333;height: 60px}
+#header ul{float: right;}
+#header li{float: left;position: relative;margin-right:20px;margin-top: 20px;}
+#header a{color: white;font-size: 15px;text-decoration: none;font-size: 0.8em;}
+#bd_logo{margin-left: 30px;margin-top: 12px;}
+#page1,#page2,#image,#page3,#page4{margin: 20px;background: white;}
+
+#page1, *{margin: 15px;}
+#page
+h3{color:grey}

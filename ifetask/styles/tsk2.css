@@ -1,18 +1,170 @@
-/*
+    /*
 * @Author: Administrator
 * @Date:   2016-12-02 20:28:47
-* @Last Modified by:   Administrator
-* @Last Modified time: 2016-12-16 12:13:32
+* @Last Modified by:   ''xycd''
+* @Last Modified time: 2016-12-31 18:56:51
 */
-*{margin: 0;padding: 0}
-body{margin: 0;background-color: #DEDEDE;}
-#header{margin:0;background:#333333;height: 60px}
-#header ul{float: right;}
-#header li{float: left;position: relative;margin-right:20px;margin-top: 20px;}
-#header a{color: white;font-size: 15px;text-decoration: none;font-size: 0.8em;}
-#bd_logo{margin-left: 30px;margin-top: 12px;}
-#page1,#page2,#image,#page3,#page4{margin: 20px;background: white;}
+    /**{margin: 0;padding: 0;}*/
+    
+    body {
+        background-color: #DEDEDE;
+        font-family: 'Microsoft YaHei';
+    }
+    /*头部*/
+    /*************************************************/
+    
+    #header {
+        background: #333333;
+        height: 60px;
+    }
+    
+    #header ul {
+        float: right;
+        margin: 10px;
+    }
+    
+    #header li {
+        float: left;
+        margin: 12px;
+    }
+    
+    #header a {
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    #header img {
+        margin: 10px 40px;
+    }
+    
+    .wrap {
+        margin: 20px;
+        background: white;
+        padding: 20px;
+        box-shadow: 1px 1px 2px 1px #848484;
+    }
+    /*主体*/
+    /*************************************************/
+    
+    .wrap a {
+        color: blue;
+    }
+    
+    .wrap a:hover {
+        color: red;
+    }
+    
+    h3 {
+        color: #7E7E7C;
+        font-size: 15px;
+    }
+    
+    .timeandauther {
+        color: #808080;
+        font-size: 12px;
+    }
+    
+    .wrap p {
+        text-indent: 2em;
+        line-height: 25px;
+    }
+    
+    ul li {
+        list-style: none;
+        line-height: 25px;
+    }
+    
+    #image li {
+        width: 120px;
+        padding: 5px 5px 5px 15px;
+        margin: 20px;
+        border: 1px solid #ccc;
+    }
+    
+    #image li span {
+        margin-left: 15px;
+    }
+    /*表格*/
+    /*************************************/
+    
+    ol li {
+        line-height: 25px;
+    }
+    
+    .bottom {
+        background: #ccc;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    th {
+        color: white;
+        background: #333;
+    }
+    /*侧栏*/
+    /*************************************/
+    
+    #page4 form div {
+        margin: 12px;
+    }
+    /******不懂*************************/
+    
+    form div .tips {
+        float: left;
+        text-align: right;
+        width: 35%;
+        padding-right: 15px;
+    }
+    /*******************不懂**************/
+    
+    #page4 h4 {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        border-left: 3px solid #ccc;
+    }
+    
+    #page4 form p {
+        margin-left: 35%;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #aaa;
+    }
+    
+    textarea {
+        width: 50%;
+        height: 100px;
+    }
+    
+    .submitButton {
+        background-color: #0063dc;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    .submitButton:hover {
+        background: #0063dc;
+    }
 
-#page1, *{margin: 15px;}
-#page
-h3{color:grey}
+
+
+ 
+     /*footer*/
+    /*************************************/
+
+    footer {
+        width: 100%;
+        background-color: black;
+        height: 70px;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        line-height: 80px;
+    }
+   

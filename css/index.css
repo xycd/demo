@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #5f5f5f;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #8b00e0;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #42006a;
+}
+
+h1 {
+    font-size: 190px;
+    color: #ff9933;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+#info_container {
+    font-size: 22px;
+}
+#top_container{margin-left: 50px;}
+
+.orange {
+	
+    color: #ff9933;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#marquee_container {
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    padding: 30px 0 30px 0;
+    margin: 0 50px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.6;
+}
+
+#website_list_container {
+    margin: 30px 0 20px 50px;
+}
+
+.day_lable {
+    margin-right: 10px;
+}
+
+
+
+
+header {
+    text-align: right;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin-left: 10px;
+    font-weight: normal;
+    color: #5f5f5f;
+    text-decoration: none;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+    color: #ff9933;
+}
+
+#about #content {
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+}
+
+#content a {
+    text-decoration: none;
+    color: #1770C7;
+}
+

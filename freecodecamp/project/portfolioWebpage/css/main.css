@@ -1,0 +1,88 @@
+/* === common === */
+
+body {
+    position: relative;
+}
+
+section h1,
+h2,p{
+    text-align: center;
+}
+
+section a {
+    color: white;
+}
+
+/* === Navbar === */
+nav ul{
+	padding-right: 100px;
+}
+nav ul li{
+	margin-right: 20px;
+}
+.navbar{
+	padding-left: 10%;
+}
+/* === Section === */
+.home {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 18%;
+    padding-bottom: 10%;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+.skill {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #009688;
+}
+/* === portfolio === */
+.portfolio {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color:  #ff9800;
+}
+hr{
+	width: 80%;
+	padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after{
+	content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ff98te;
+}
+
+/* === CONTACT === */
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #00bcd4;
+}
+
+/* === scroll-top === */
+
+
+
+footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding-bottom: 1px;
+}

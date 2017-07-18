@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<style type="text/css">
+		#words{color:red;background-color: green;width:200px;}
+	</style>
+</head>
+<body>
+	<input type="text" id="words">input some words</div>
+	<br>
+	<button id="change">change the color of the words</button>
+	<script>
+		window.onload = function(){
+			var words = document.getElementById("words");
+			var change = document.getElementById("change");
+			change.onclick=function(){
+				if(word.style.color=="green"){
+					words.style.color="red";
+				}
+			else if(words.style.color=="red"){
+				words.style.color="green";
+			}
+}
+		}
+	</script>
+
+</body>
+</html>
